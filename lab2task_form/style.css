@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body {
@@ -7,13 +8,14 @@ body {
     font-size: 12px;
     margin: 0;
     padding: 20px;
-    background-color:silver;
+    background-color: silver;
+    
 }
 
 .form-container {
     max-width: 600px;
     margin: 0 auto;
-    background-color: white;
+    background-color: wheat;
     padding: 20px;
     border: 1px solid white;
 }
@@ -25,10 +27,6 @@ body {
     font-size: 18px;
     margin: 20px 0 15px 0;
     padding: 0;
-}
-
-.section-header:first-child {
-    margin-top: 0;
 }
 
 .form-row {
@@ -88,10 +86,6 @@ body {
     gap: 3px;
 }
 
-.donation-amount input[type="radio"] {
-    margin: 0;
-}
-
 .other-amount {
     display: flex;
     align-items: center;
@@ -123,10 +117,6 @@ body {
     margin-bottom: 8px;
 }
 
-.checkbox-row input[type="checkbox"] {
-    margin-right: 8px;
-    margin-top: 2px;
-}
 
 .radio-section {
     margin-left: 130px;
@@ -139,9 +129,6 @@ body {
     margin-bottom: 5px;
 }
 
-.radio-row input[type="radio"] {
-    margin-right: 8px;
-}
 
 .textarea-section {
     margin-bottom: 15px;
@@ -168,9 +155,7 @@ body {
     margin-bottom: 5px;
 }
 
-.contact-row input[type="checkbox"] {
-    margin-right: 8px;
-}
+
 
 .newsletter-section {
     margin-left: 130px;
@@ -211,32 +196,4 @@ body {
 .small-text {
     font-size: 11px;
     color: #666;
-}
-
-@media (max-width: 768px) {
-    .form-container {
-        margin: 10px;
-        padding: 15px;
-    }
-
-    .form-row {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .form-label {
-        text-align: left;
-        min-width: auto;
-        margin-bottom: 3px;
-    }
-
-    .donation-amounts,
-    .other-amount,
-    .recurring-section,
-    .checkbox-section,
-    .radio-section,
-    .contact-preferences,
-    .newsletter-section {
-        margin-left: 0;
-    }
 }
