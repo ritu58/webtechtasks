@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 20px;
+    background-color: silver;
+    
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: wheat;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.section-header {
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0 15px 0;
+    padding: 0;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    min-height: 25px;
+}
+
+.form-label {
+    text-align: right;
+    padding-right: 10px;
+    min-width: 120px;
+    font-size: 12px;
+    color: #333;
+}
+
+.form-input {
+    flex: 1;
+    padding: 3px 5px;
+    border: 1px solid #999;
+    font-size: 12px;
+    height: 20px;
+}
+
+.form-input-wide {
+    width: 300px;
+}
+
+.form-input-medium {
+    width: 200px;
+}
+
+.form-input-short {
+    width: 100px;
+}
+
+.form-select {
+    padding: 2px;
+    border: 1px solid #999;
+    font-size: 12px;
+    height: 22px;
+    background-color: white;
+}
+
+.donation-amounts {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 130px;
+    margin-bottom: 8px;
+}
+
+.donation-amount {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.other-amount {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 130px;
+    margin-bottom: 8px;
+}
+
+.recurring-section {
+    margin-left: 130px;
+    margin-bottom: 15px;
+}
+
+.recurring-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.checkbox-section {
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+
+.radio-section {
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+
+.radio-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+.textarea-section {
+    margin-bottom: 15px;
+}
+
+.form-textarea {
+    width: 100%;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid #999;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+}
+
+.contact-preferences {
+    margin-left: 130px;
+    margin-bottom: 15px;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+
+.newsletter-section {
+    margin-left: 130px;
+    margin-bottom: 15px;
+}
+
+.volunteer-section {
+    margin-bottom: 15px;
+}
+
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 5px 15px;
+    font-size: 12px;
+    border: 1px solid #999;
+    background-color: blue;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.red-asterisk {
+    color: #cc0000;
+}
+
+.small-text {
+    font-size: 11px;
+    color: #666;
+}
