@@ -1,188 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="">
-    <title>Form making</title>
-
+    <title>Button Add/Remove Example</title>
 </head>
-<h1 class="lab">Donor Information</h1>
-<form>
-    <label for="">first name <input type="text" required></label>
-    <br>
-    <br>
-    <label for=""><b style="color: green;">*</b> Last name</label>
-    <input type="text">
-    <br>
-    <br>
-    <label for=""><b style="color: green;">*</b> Company</label>
-    <input type="text">
-    <br>
-    <br>
-    <label for=""><b style="color: green;">*</b> Address 1</label>
-    <input type="text">
-    <br>
-    <br>
-     <label for=""><b style="color: green;">*</b> Address 2</label>
-    <input type="text">
-    <br>
-    <br>
-     <label for=""><b style="color: green;">*</b> City</label>
-    <input type="text">
-    <br>
-    <br>
-    <label for="fname">State </label>
-  <select name="state" required>
-  <option value="">Select a State</option>
-  <option value="CA">Manipur</option>
-  <option value="NY">Punjab</option>
-  </select>
-    <br>
-    <br>
-    <label for="">Zip Code</label>
-    <input type="text">
-    <br>
-    <br>
-    <label for="fname">Country</label>
-    <select name="state" required>
-    <option value="">Select a State</option>
-    <option value="CA">Bangladesg</option>
-    <option value="NY">India</option>
-    </select>
-    <br>
-    <br>
-    <label for="fname">Phone:</label>
-    <input type="text" id="fname" name="fname" value="">
-    <br>
-    <br>
-    <label for="fname">Fax</label>
-    <input type="text" id="fname" name="fname" value="">
-    <br>
-    <br>
-    <label for="fname">Email:</label>
-    <input type="text" id="fname" name="fname" value="">
-    <br> 
-    <br>
-    <label for="donation-none">Donation Amount:</label>
-    <input type="radio" id="donation-none" name="donation" value="None">
-    <label for="donation-none">None</label>
-    <input type="radio" id="donation-50" name="donation" value="$50">
-    <label for="donation-50">$50</label>
-    <input type="radio" id="donation-75" name="donation" value="$75">
-    <label for="donation-75">$75</label>
-    <input type="radio" id="donation-100" name="donation" value="$100">
-    <label for="donation-100">$100</label>
-    <br>
-    <br>
-    <label for="fname">Other Amount $:</label>
-    <input type="text" id="fname" name="fname" value="">
-    <br>
-    <br>
-    <label for="rename">Recurring Donation</label>
-    <input type="checkbox" name="recurring">
-    I am interested in giving on a regular basis.
-    <br>
-    <br>
-    Monthly Credit Card $ <input type="number" name="amount"> 
-    For <input type="number" name="months"> Months
-    <h2 class="lab1">Honorarium and Memorial Donation Information</h2>
-    <label for="donation-none">I would like to make this donation</label>
-    <input type="radio" id="donation-50" name="donation" value="$50">
-    <label for="donation-50">To Honor</label>
-    
-    <input type="radio" id="donation-75" name="donation" value="$75">
-    <label for="donation-75">In memory of</label>
-    <br>
-    <br>
-    <label for="">Name</label>
-    <input type="text">
-    <br>
-    <br>
-    <label for="">Acknowledge Donation to</label>
-    <input type="text">
-    <br>
-    <br>
-    <label for="">Address</label>
-    <input type="text">
-    <br>
-    <br>
-    <label for="">City</label>
-    <input type="text">
-    <br>
-    <br>
-    <label for="fname">State</label>
-    <select name="state" required>
-    <option value="">Select a State</option>
-    <option value="CA">Bangladesh</option>
-    <option value="NY">India</option>
-    </select>
-    <br>
-    <br>
-    <label for="">Zip </label>
-    <input type="text">
-    <br>
-    <br>
-    <h3 class="lab">Additional Information</h3>
-    <label for="fname">Please enter your name, company or organization as you would like it to appear in our publication:</label> <br>
-    <label for="fname">Name:</label>
-    <input type="text" id="fname" name="fname" value="">
-    <br>
-    <br>
-
-    <input type="radio" id="donation-none" name="donation" value="None">
-    <label for="donation-none">I would like my gift to remain anonymous</label> 
-    <br>
-    <input type="radio" id="donation-50" name="donation" value="$50">
-    <label for="donation-50">My employer offers a matching gift program. I will mail the matching gift form</label> 
-    <br>
-    <input type="radio" id="donation-75" name="donation" value="$75"> 
-    <label for="donation-75">Please save the cost of acknowledging this gift by not mailing a thank you letter. </label>
-    <br>
-    <br>
-
-    <label for="comments">Comments:</label> 
-    <br>
-    <textarea id="comments" name="comments" rows="5" cols="50"></textarea><br><br>
-
-    <label>How may we contact you?</label>
-    <br>
-    <input type="checkbox" id="email" name="contact" value="Email">
-    <label for="email">E-mail</label>
-
-    <input type="checkbox" id="postal" name="contact" value="Postal Mail">
-    <label for="postal"style="color :skyblue">Postal Mail</label> 
-
-    <input type="checkbox" id="telephone" name="contact" value="Telephone">
-    <label for="telephone">Telephone</label>
-
-    <input type="checkbox" id="fax" name="contact" value="Fax">
-    <label for="fax">Fax</label>
-    <br>
-
-    <label>I would like to receive newsletters and information about special events by:</label><br>
-    <input type="checkbox" id="Email" name="contact" value="Email">
-    <label for="Email">E-mail</label>
-    <input type="checkbox" id="Postal Email" name="contact" value="Postal Email">
-    <label for="Postal Email">Postal Email</label>
-    <input type="checkbox" id="Postal Email" name="contact" value="Postal Email">
-    <label for="Postal Email">I would like information about volunteering with the</label> 
-    <br>
-    <br>
-
-    <input type="submit" value="Continue">
-    <input type="reset" value="Reset">
-
-</form>
-<style>
-            .lab{
-                color:Red;
-                font-size: 40px;
-             }
-             .lab1{
-                color: red;
-             }
-             
-</style>
 <body>
-    
+
+<h2>DOM Manipulation Example</h2>
+
+<div id="container"></div>
+
+<button id="btn1">Create</button>
+<button id="btn2">Remove</button>
+
+<script>
+    // Get elements
+   const container = document.getElementById('container');
+    const btn1 = document.getElementById('btn1');
+    const btn2 = document.getElementById('btn2');
+
+    // Add button: creates a new paragraph with text "web"
+    btn1.addEventListener('click', () => {
+        const p = document.createElement('p');
+        p.textContent = "websiiiii";
+        container.appendChild(p);
+    });
+
+    // Remove button: deletes the last paragraph inside container
+    btn2.addEventListener('click', () => {
+        if (container.lastChild) {
+            container.removeChild(container.lastChild);
+        }
+    });
+</script>
+
 </body>
 </html>
